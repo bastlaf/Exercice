@@ -64,6 +64,7 @@ a {
 
 body {
     width: 100vw;
+    max-width: 100vw;
     font-family: 'Roboto', sans-serif;
     background: $color-background;
     display: flex;
@@ -195,7 +196,7 @@ body {
                
                 .btn1 {
                     &::after {
-                        content: url(/img/FlècheBlue.svg);
+                        content: url(../img/FlècheBlue.svg);
                         margin-left: 25px;
                     }
                     &:hover a {
@@ -204,7 +205,7 @@ body {
                 }
                 .btn2 {
                     &::after {
-                        content: url(/img/FlècheOrange.svg);
+                        content: url(../img/FlècheOrange.svg);
                         margin-left: 25px;
                     }
       
@@ -327,7 +328,7 @@ body {
             .btn3 {
                 margin-right: 80px;
                 &::after {
-                    content: url(/img/Flèche.svg);
+                    content: url(../img/Flèche.svg);
                     margin-left: 25px;
                 }
                 &:hover a {
@@ -389,7 +390,7 @@ body {
                     // width: 100%;
                     margin-right: 150px;
                     &::after {
-                        content: url(/img/Flèche.svg);
+                        content: url(../img/Flèche.svg);
                         margin-left: 25px;
                     }
                     &:hover a {
@@ -431,7 +432,7 @@ body {
                 margin-top: 100px;
                 margin-bottom: 170px;
                 &::after {
-                    content: url(/img/FlècheBlue.svg);
+                    content: url(../img/FlècheBlue.svg);
                     margin-left: 25px;
                 }
                 &:hover a {
@@ -490,11 +491,11 @@ body {
                         margin-left: 70px;
                         margin-top: 50px;
                         &::after {
-                            content: url(/img/FlècheNoire.svg);
+                            content: url(../img/FlècheNoire.svg);
                             margin-left: 25px;
                         }
                         &::before {
-                            content: url(/img/FlècheOrange.svg);
+                            content: url(../img/FlècheOrange.svg);
                             margin-left: 25px;
                             position: absolute;
                             height: 23px;
@@ -543,7 +544,7 @@ body {
         .imgBackground {
             width: 100%;
             height: 600px;
-            background-image: url(/img/linkedin-sales-solutions-46bom4lObsA-unsplash\ 1.png);
+            background-image: url(../img/linkedin-sales-solutions-46bom4lObsA-unsplash\ 1.png);
             background-position: center;
             background-size: cover;
         }
@@ -596,7 +597,7 @@ body {
                         // margin-right: 50px;
                         .btnTalk {
                             &::after {
-                                content: url(/img/Flèche.svg);
+                                content: url(../img/Flèche.svg);
                                 margin-left: 25px;
                             }
                             &:hover a {
@@ -782,7 +783,7 @@ body {
         overflow: hidden;
         &::before {
             content : "";
-            background-image: url(/./img/jupiter3.png);
+            background-image: url(../img/jupiter3.png);
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
@@ -800,7 +801,7 @@ body {
         &::after {
             content : "";
             z-index: -5;
-            background-image: url(/./img/jupiter2.png);
+            background-image: url(../img/jupiter2.png);
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
