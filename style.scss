@@ -425,21 +425,29 @@ body {
                 font-size: 48px;
                 line-height: 120%;
             }
-            .btnAllOurServices {
+            .boxBtnServices {
+                // background-color: #9140f4;
+                width: 100%;
                 display: flex;
                 justify-content: flex-end;
-                width: 100%;
-                margin-top: 100px;
-                margin-bottom: 170px;
-                &::after {
-                    content: url(../img/FlècheBlue.svg);
-                    margin-left: 25px;
-                }
-                &:hover a {
-                    color: #9ffce0;
-                }
-                a {
+                .btnAllOurServices {
+                        // background-color: #9ffce0;
+                    // display: flex;
+                    // justify-content: flex-end;
+                    // width: fit-content;
+                    margin-top: 100px;
+                    margin-bottom: 170px;
                     margin-right: 80px;
+                    &::after {
+                        content: url(../img/FlècheBlue.svg);
+                        margin-left: 25px;
+                    }
+                    &:hover a {
+                        color: #9ffce0;
+                    }
+                    // a {
+                    //     margin-right: 80px;
+                    // }
                 }
             }
         }
@@ -573,6 +581,7 @@ body {
                     padding: 50px 30px 30px 30px;
                     // background-color: #ccacfc5e;
                     position: relative;
+                    // z-index: 5;
                     &::before {
                         content: "";
                         position: absolute;
@@ -836,6 +845,7 @@ body {
         z-index: 5;
         pointer-events: none;
         min-width: 280px!important;
+        user-select: none;
     }
   }
 

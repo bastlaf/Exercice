@@ -1,6 +1,6 @@
 
  var swiper = new Swiper(".mySwiper", {
-    slidesPerView: '5',
+    slidesPerView: '1',
     spaceBetween: 150,
     centeredSlides: false, 
     // nested: true,
