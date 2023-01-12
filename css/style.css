@@ -373,7 +373,7 @@ body .sectionServices {
 }
 body .sectionServices .union {
   position: absolute;
-  top: -290px;
+  bottom: 180px;
 }
 body .sectionServices .servicesContainer {
   width: 100%;
